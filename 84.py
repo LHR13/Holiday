@@ -1,0 +1,5 @@
+n=input("请输入一个字符串：")
+m=n.upper()
+fo=open("test.txt","w")
+fo.write(m)
+fo.close()

@@ -1,0 +1,10 @@
+m=eval(input("请输入长方形的长："))
+n=eval(input("请输入长方形的宽："))
+import turtle as t
+t.forward(m)
+t.right(90)
+t.forward(n)
+t.right(90)
+t.forward(m)
+t.right(90)
+t.forward(n)
